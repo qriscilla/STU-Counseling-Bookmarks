@@ -1,0 +1,29 @@
+body {
+    margin-top: 5%;
+}
+
+.container {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100%;
+}
+
+#left-links {
+    border: 2px solid black;
+    box-shadow: 7px 7px;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+#right-body {
+    padding: 0px;
+    width: 100%;
+}
+
+iframe {
+    border: 2px solid black;
+}
+
+/* .container, #left-links, #right-body {
+    border: 2px black solid;
+} */
