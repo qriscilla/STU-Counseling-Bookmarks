@@ -55,13 +55,25 @@ iframe {
     margin-top: 5%;
 }
 
-/* a:active, a:focus {
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+a:focus {
     background-color: white;
     color: rgb(32, 44, 58);
     font-weight: bold;
-    font-size: 110%;
-} */
+}
 
-a {
-    color: white;
+#band {
+    background-color: rgb(32, 44, 58);
+    border: none;
+    margin-left: -8px;
+    margin-top: 5px;
+    vertical-align: top;
 }
