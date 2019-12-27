@@ -41,6 +41,9 @@ iframe {
 
 #right-body {
     padding: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 iframe {
@@ -64,7 +67,7 @@ a:hover {
     cursor: pointer;
 }
 
-a:focus {
+#links-fragment > a:focus {
     background-color: white;
     color: rgb(32, 44, 58);
     font-weight: bold;
@@ -76,4 +79,39 @@ a:focus {
     margin-left: -8px;
     margin-top: 5px;
     vertical-align: top;
+}
+
+.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+/* rectangles */
+#sq1 {
+    width: 45vw;
+    height: 40vh;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+#sq4 {
+    width: 45vw;
+    height: 40vh;
+    margin-top: -35vh;
+    margin-left: 25vw;
+}
+
+/* squares */
+#sq2 {
+    width: 30vw;
+    height: 50vh;
+    margin-top: -35vh;
+    float: right;
+    margin-right: 2vw;
+}
+#sq3 {
+    width: 30vw;
+    height: 50vh;
+    margin-left: 4vw;
+    margin-top: -4vh;
 }
