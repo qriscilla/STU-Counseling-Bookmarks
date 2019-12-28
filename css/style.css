@@ -1,24 +1,15 @@
+iframe {
+  width: 100%;
+  height: 100vh;
+  margin-left: 3vw;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
- #right-body {
-  padding: 0px;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-}
-
-iframe {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8243,7 +8234,7 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.6);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
       #sidebar ul li a span {
-        color: #50bcf3; }
+        color: #44bef1; }
       #sidebar ul li a:hover {
         color: #fff; }
     #sidebar ul li.active > a {
@@ -8328,7 +8319,7 @@ a[data-toggle="collapse"] {
     border-color: #3445b4 !important; }
 
 .footer p {
-  color: white; }
+  color: rgba(255, 255, 255, 0.5); }
 
 .form-control {
   height: 40px !important;
@@ -8355,4 +8346,4 @@ a[data-toggle="collapse"] {
     color: rgba(255, 255, 255, 0.5); }
 
 .subscribe-form .form-control {
-  background: #214d72; }
+  background: #3b4ec6; }
