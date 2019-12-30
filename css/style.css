@@ -8139,8 +8139,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.8;
+  font-size: 12px;
+  line-height: 1.5;
   font-weight: normal;
   background: #fafafa;
   color: gray; }
@@ -8216,13 +8216,13 @@ h1, h2, h3, h4, h5,
     #sidebar h1 .logo {
       color: #fff; }
       #sidebar h1 .logo span {
-        font-size: 14px;
+        font-size: 15px;
         color: #44bef1;
         display: block; }
   #sidebar ul.components {
     padding: 0; }
   #sidebar ul li {
-    font-size: 16px; }
+    font-size: 14px; }
     #sidebar ul li > ul {
       margin-left: 10px; }
       #sidebar ul li > ul li {
@@ -8347,3 +8347,11 @@ a[data-toggle="collapse"] {
 
 .subscribe-form .form-control {
   background: #3b4ec6; }
+
+.fa-caret-right {
+  visibility: hidden;
+}
+
+#sidebar ul li a:hover > .fa-caret-right {
+  visibility: visible;
+}
