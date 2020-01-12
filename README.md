@@ -1,3 +1,7 @@
+# Seoul Theological Seminary
+# Department of Counseling
+# Bookmark Web Page
+
 Although small, this is my first published work! 
 I created this bookmark page for my father, who is the dean of the Department of Counseling at Seoul Theological Seminary. 
 The student body was in need of a centralized space that collectively provided all the necessary links for quick access, 
