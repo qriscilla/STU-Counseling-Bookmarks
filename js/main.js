@@ -13,6 +13,12 @@
   });
 })(jQuery);
 
+
+
+// $('.link').click(function() {
+// 	alert('helo');
+// })
+
 // Slideshow on the front page
 // var slideIndex = 1;
 // showDivs(slideIndex);

@@ -8194,8 +8194,8 @@ h1, h2, h3, h4, h5,
 #sidebar {
   min-width: 270px;
   max-width: 270px;
-  background: #3445b4;
-  color: #fff;
+  background: #4f5d5c;
+  color: #ffe4bb;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -8212,7 +8212,7 @@ h1, h2, h3, h4, h5,
       color: #fff; }
       #sidebar h1 .logo span {
         font-size: 15px;
-        color: #44bef1;
+        color: #ffd491;
         display: block; }
   #sidebar ul.components {
     padding: 0; }
@@ -8228,12 +8228,12 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.6);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
       #sidebar ul li a span {
-        color: #44bef1; }
+        color: #ffd491; }
       #sidebar ul li a:hover {
-        color: #fff; }
+        color: #ffd491; }
     #sidebar ul li.active > a {
       background: transparent;
-      color: #fff; 
+      color: #ffd491; 
     }
   @media (max-width: 991.98px) {
     #sidebar {
@@ -8276,7 +8276,7 @@ h1, h2, h3, h4, h5,
           -webkit-transform: rotate(45deg);
           -ms-transform: rotate(45deg);
           transform: rotate(45deg);
-          background: #3445b4;
+          background: #4f5d5c;
           border-radius: 10px; }
         #sidebar .custom-menu .btn.btn-primary:hover, #sidebar .custom-menu .btn.btn-primary:focus {
           background: transparent !important;
@@ -8351,6 +8351,9 @@ a[data-toggle="collapse"] {
   visibility: visible;
 }
 
+#sidebar ul li a:focus {
+  color: #ffd491;
+}
 
 
 
@@ -8367,9 +8370,6 @@ a[data-toggle="collapse"] {
 
 
 
-
-
-
-.mySlides {display:none}
+/* .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
+.w3-badge {height:13px;width:13px;padding:0} */
