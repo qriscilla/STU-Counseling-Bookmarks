@@ -15,9 +15,10 @@
 
 
 
-// $('.link').click(function() {
-// 	alert('helo');
-// })
+$('.new-tab').click(function() {
+	$('iframe').hide();
+	$('tab-announce').show();
+})
 
 // Slideshow on the front page
 // var slideIndex = 1;

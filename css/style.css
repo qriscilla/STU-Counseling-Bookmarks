@@ -454,7 +454,8 @@ pre {
   margin-left: auto; }
   @media (min-width: 576px) {
     .container {
-      max-width: 540px; } }
+      max-width: 540px; }
+    }
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
@@ -8355,15 +8356,38 @@ a[data-toggle="collapse"] {
   color: #ffd491;
 }
 
+/* .tab-announce {
+  text-align: center;
+  font-size: 50;
+} */
 
 
 
 
-
-
-
-
-
+@media (min-width: 576px) {
+    .tab-announce {
+      text-align: center;
+      vertical-align: middle;
+    } 
+  }
+@media (min-width: 768px) {
+    .tab-announce {
+      text-align: center;
+      vertical-align: middle;
+    } 
+  }
+@media (min-width: 992px) {
+    .tab-announce {
+      text-align: center;
+      vertical-align: middle;
+    } 
+  }
+@media (min-width: 1200px) {
+    .tab-announce {
+      text-align: center;
+      vertical-align: middle;
+    } 
+  }
 
 
 
