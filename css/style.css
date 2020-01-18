@@ -8368,24 +8368,28 @@ a[data-toggle="collapse"] {
     .tab-announce {
       text-align: center;
       vertical-align: middle;
+      font-size: 14px;
     } 
   }
 @media (min-width: 768px) {
     .tab-announce {
       text-align: center;
       vertical-align: middle;
+      font-size: 16px;
     } 
   }
 @media (min-width: 992px) {
     .tab-announce {
       text-align: center;
       vertical-align: middle;
+      font-size: 18px;
     } 
   }
 @media (min-width: 1200px) {
     .tab-announce {
       text-align: center;
       vertical-align: middle;
+      font-size: 20px;
     } 
   }
 
