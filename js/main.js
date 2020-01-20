@@ -13,17 +13,15 @@
   });
 })(jQuery);
 
-
-
-// $('.new-tab').click(function() {
-// 	$('iframe').hide();
-// 	$('tab-announce').show();
-// })
-
-// $('.current-tab').click(function() {
-// 	$('tab-announce').hide();
-// 	$('iframe').show();
-// })
+// target='_blank' announement
+$('.new-tab').click(function() {
+	$('iframe').hide();
+	$('.tab-announce').show();
+})
+$('.current-tab').click(function() {
+	$('.tab-announce').hide();
+	$('iframe').show();
+})
 
 // Slideshow on the front page
 // var slideIndex = 1;
