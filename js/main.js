@@ -23,6 +23,10 @@ $('.current-tab').click(function() {
 	$('iframe').show();
 })
 
+$(document).ready(function() {
+	$('iframe').show();
+});
+
 // Slideshow on the front page
 // var slideIndex = 1;
 // showDivs(slideIndex);
