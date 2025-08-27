@@ -1,67 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Notion Embed Messaging Demo</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 20px;
-    }
-    iframe {
-      width: 100%;
-      height: 500px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      margin-top: 15px;
-    }
-    button {
-      padding: 10px 16px;
-      font-size: 16px;
-      border: none;
-      border-radius: 6px;
-      background: #4CAF50;
-      color: white;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #45a049;
-    }
-  </style>
-</head>
-<body>
-  <h2>Notion Embed Messaging Test</h2>
-  <button id="sendBtn">Send Message to Notion Iframe</button>
+  <head>
 
-  <!-- Replace with your actual Notion page link -->
-  <iframe 
-    id="notionFrame" 
-    src="https://puffy-amber-e23.notion.site/your-page-id" 
-    title="Notion Embed">
-  </iframe>
 
-  <script>
-    const notionFrame = document.getElementById("notionFrame");
-    const sendBtn = document.getElementById("sendBtn");
+  </head>
 
-    // Function to send a message TO the iframe
-    function sendMessageToNotion() {
-      notionFrame.contentWindow.postMessage(
-        { type: "PING", text: "Hello from stucounseling.com!" }, 
-        "https://puffy-amber-e23.notion.site" // must match the iframe's origin
-      );
-      console.log("Message sent to Notion iframe");
-    }
+  <body>
+		
+		<iframe 
+  src="https://puffy-amber-e23.notion.site/ebd/24cc2e66872580bb95b3c715a14b8563" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
 
-    sendBtn.addEventListener("click", sendMessageToNotion);
-
-    // Listen for messages FROM the iframe
-    window.addEventListener("message", (event) => {
-      if (event.origin !== "https://puffy-amber-e23.notion.site") return; // security check
-      console.log("Message received from Notion iframe:", event.data);
-      alert("Message received: " + JSON.stringify(event.data));
-    });
-  </script>
-</body>
+		
+  </body>
 </html>
